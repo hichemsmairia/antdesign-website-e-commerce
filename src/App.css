@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+@import '~antd/dist/antd.css';
+.ant-carousel .slick-slide {
+
+  height: 500px;
+  line-height: 100px;
+  background: #F4F7F9;
+  overflow: hidden;
+}
+
+.carousel-img {
+  height : 400px ;
+  width : 300px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ant-carousel .slick-dots li button {
+  background: black;
+  opacity: 1 ;
+  padding:3px ;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0 , 0,0, .3);
+}
+
+img {
+  margin-left: 150px;
+  width: 300px;
+  height: 400px;
+
+}
+
+.container {
+  position: relative;
+
+  margin-left: 250px;
+  width: 500px;
+  height: 500px;
+}
+.button {
+
+  width: 50px;
+  height: 50px ;
+  left:50%;
+  top: 200px;
+
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+.logo-image {
+  height: 60px ;
+  width: 130px ;
+  right: 100px ;
+  margin-left: -290px;
+}
